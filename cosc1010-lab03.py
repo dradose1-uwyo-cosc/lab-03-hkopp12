@@ -18,7 +18,7 @@ print("Part One-----------------------------------------------------------------
 #We are going to start with the basics. Declare a list  states that contains the elements: Wyoming, Colorado, Montana in that order 
 #Note this is the ONLY point where you need to declare the states list
 
-states= ["Wyoming," "Colorado," "Montana,"]
+states= ["Wyoming", "Colorado", "Montana"]
 
 #print the entire list
 
@@ -35,20 +35,20 @@ print(states[2])
 #Using an F-string to access the first and second element print the string "COLORADO is south of WYOMING", matching the casing provided
 
 message= f"{states[1]} is south of {states[0]}"
-print(messgage)
+print(message)
 
 print("Part Two------------------------------------------------------------------------")
 #Append the following states to your list: Washington, Oregon, California and print your list
 
-states= ["Wyoming," "Colorado," "Montana,"]
-states.append(Oregon)
-states.append(California)
+states= ["Wyoming", "Colorado", "Montana"]
+states.append("Oregon")
+states.append("California")
 print(states)
 
 #Again using the specific syntax mentioned in class overwrite the second to last element to be Maine, printing the list 
 
 states.insert(3,"Maine")
-pinrt(states)
+print(states)
 
 #Insert the state Texas to be the third element in the list, again printing your list
 
